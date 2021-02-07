@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+
+body {
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: #A3C1BC;
+}
+
+/* visited link */
+a:visited {
+  color: #A3C1BC;
+}
+
+/* mouse over link */
+a:hover {
+  color: #A3C1BC;
+}
+
+/* selected link */
+a:active {
+  color: #A3C1BC;
+}
+
+
+a.piedeimagen:link {color:#666666;;text-decoration:none;}
+a.piedeimagen:visited {color:#666666;;text-decoration:none;}
+a.piedeimagen:hover {text-decoration:underline;}
+
+
+.contenido {
+	float: none;
+	margin-top: 10%;
+	margin-left: 8%;
+	margin-right: auto;	
+}
+
+ .piedeimagen {
+	float: none;
+	margin-top: 2%;
+	font-family: "Barlow Semi Condensed", sans-serif;
+	color: #666666;
+	font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+	font-family: "Barlow Semi Condensed", sans-serif;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+	color: #CECECE;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: #111;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+	background-color: #A3C1BC;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+	
+	
+/* columnas css */	
+	
+	* {
+  box-sizing: border-box;
+}
+
+/* aca se edita la columna del pie de imagen */
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* columnas css  fin*/	
+	
+	
+.p1 {
+	font-family: "Barlow Semi Condensed", sans-serif;
+	color: #A3C1BC;
+	font-size: 105px;
+	line-height: 90px;
+	text-transform: uppercase;
+	text-align: right;
+	float: left;
+}
+	
+p {
+	font-family: "Barlow Semi Condensed", sans-serif;
+	color: #5C5F5E;
+	font-size: 16px;
+	width: 150%;
+	float:left;
+}	
+
+a:link {
+  color: #A3C1BC;
+}	
+	
+ .contenido2 {
+	float: left;
+	margin-top: 2%;
+	margin-left: 8%;
+	margin-right: auto;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color:#666666;
+}

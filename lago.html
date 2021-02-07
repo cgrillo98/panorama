@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Panorama - SADS -</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css.css">
+
+<style>
+
+
+
+
+ .contenido {
+	float: none;
+	margin-top: 10%;
+	margin-left: 8%;
+	margin-right: auto;	
+}
+
+
+ .image-container4 {
+
+    margin-left: 58%;
+}
+.image-container4 img {
+  position: absolute;
+  animation-name: multiple-image-crossfade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+.image-container4 img:nth-of-type(1) {
+  animation-delay: 3s;
+}
+.image-container4 img:nth-of-type(2) {
+  animation-delay: 2s;
+}
+.image-container4 img:nth-of-type(3) {
+  animation-delay: 1s;
+}
+.image-container4 img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+@keyframes multiple-image-crossfade4 {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+ .image-container3 {
+
+    margin-left: 15%;
+}
+.image-container3 img {
+  position: absolute;
+  animation-name: multiple-image-crossfade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+.image-container3 img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+.image-container3 img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+.image-container3 img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+.image-container img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+@keyframes multiple-image-crossfade3 {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+ .image-container2 {
+
+    margin-left: 35%;
+}
+.image-container2 img {
+  position: absolute;
+  animation-name: multiple-image-crossfade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2.66s;
+}
+.image-container2 img:nth-of-type(1) {
+  animation-delay: 2s;
+}
+.image-container2 img:nth-of-type(2) {
+  animation-delay: 1.33s;
+}
+.image-container2 img:nth-of-type(3) {
+  animation-delay: 0.66s;
+}
+.image-container2 img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+@keyframes multiple-image-crossfade2 {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+ .image-container {
+  position: relative;
+}
+.image-container img {
+	position: absolute;
+	animation-name: multiple-image-crossfade;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 5.33s;
+	background-image: url(paisaje/3l.png);
+}
+.image-container img:nth-of-type(1) {
+  animation-delay: 4s;
+}
+.image-container img:nth-of-type(2) {
+  animation-delay: 2.6s;
+}
+.image-container img:nth-of-type(3) {
+  animation-delay: 1.5s;
+}
+.image-container img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+@keyframes multiple-image-crossfade {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+
+
+<!-- menu1 -->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">×</a>
+  <a href="/panorama/catedral.html">Catedral</a>
+  <a href="/panorama/lago.html">Lago</a>
+  <a href="/panorama/calle.html">Calle</a>
+  <a href="/panorama/index.html">Lo que permanece</a>
+</div>
+<div id="main">
+  <button class="openbtn" onClick="openNav()">☰ </button>  
+<!-- menu1fin -->
+
+
+<div class="contenido">
+
+
+<!-- partial:index.partial.html -->
+<div class="image-container">
+
+	<img src="/panorama/paisaje/4l.png">
+	<img src="/panorama/paisaje/2l.png">
+    <img src="/panorama/paisaje/1l.png" />
+    <img src="/panorama/paisaje/3l.png" /></div>
+<!-- partial -->
+<!-- partial:index.partial.html -->
+<div class="image-container2">
+    <img src="/panorama/paisaje/2l.png" />
+    <img src="/panorama/paisaje/1l.png" />
+    <img src="/panorama/paisaje/3l.png" />
+    <img src="/panorama/paisaje/4l.png" />
+</div>
+<!-- partial -->
+<!-- partial:index.partial.html -->
+<div class="image-container3">
+    <img src="/panorama/paisaje/1l.png" />
+    <img src="/panorama/paisaje/3l.png" />
+    <img src="/panorama/paisaje/4l.png" />
+    <img src="/panorama/paisaje/2l.png" />
+</div>
+<!-- partial -->
+
+
+<!-- partial:index.partial.html -->
+<div class="image-container4">
+    <img src="/panorama/paisaje/4l.png" />
+    <img src="/panorama/paisaje/1l.png" />
+    <img src="/panorama/paisaje/2l.png" />
+    <img src="/panorama/paisaje/3l.png" />
+</div>
+<!-- partial -->
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div align="right">
+  <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+</body>
+</html>
