@@ -33,8 +33,8 @@ a:active {
 }
 
 
-a.piedeimagen:link {color:#b3b6b5;;text-decoration:none;}
-a.piedeimagen:visited {color:#b3b6b5;;text-decoration:none;}
+a.piedeimagen:link {color:#b1b1b1;text-decoration:none;}
+a.piedeimagen:visited {color:#b1b1b1text-decoration:none;}
 a.piedeimagen:hover {text-decoration:underline;}
 
 
@@ -49,7 +49,7 @@ a.piedeimagen:hover {text-decoration:underline;}
 	float: none;
 	margin-top: 2%;
 	font-family: "Barlow Semi Condensed", sans-serif;
-	color: #b3b6b5;
+	color: #b1b1b1
 	font-size: 12px;
 }
 
